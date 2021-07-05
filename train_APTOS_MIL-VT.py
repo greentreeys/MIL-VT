@@ -43,7 +43,7 @@ def main():
     debugFlag = False  #Debug flag is set to True to train on a small dataset
 
     base_model = 'MIL_VT_small_patch16_'+str(img_size)  #nominate the MIL-VT model to be used
-    MODEL_PATH_finetune = 'weights/fundus_pretrained_VT_small_distilled_patch16_384_5Class.pth.tar'
+    MODEL_PATH_finetune = 'weights/fundus_pretrained_VT_small_patch16_384_5Class.pth.tar'
 
     dateTag = datetime.today().strftime('%Y%m%d')
     prefix = base_model + '_' + dateTag
