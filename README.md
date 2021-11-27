@@ -15,8 +15,9 @@ Code for MICCAI 2021 accepted paper: MIL-VT: Multiple Instance Learning Enhanced
 
 
 ### Pretrain Weight for MIL-VT on large fundus dataset
-* set the parameters in the basic setting;
-* pretrain weight stores in 'weights/fundus_pretrained_VT_small_patch16_384_5Class.pth.tar'
+* Please download pretrained weight of fundus image from this link:
+* https://drive.google.com/drive/folders/1YgdhA7BK6Unrs2lOflOd9rPTrwm17gdf?usp=sharing
+* Store the pretrain weight in 'weights/fundus_pretrained_VT_small_patch16_384_5Class.pth.tar'
 
 
 ### Dataset
